@@ -1,4 +1,4 @@
-# Assignment — Part 2: Data Structures
+# Assignment - Part 2: Data Structures
 
 **Theme:** Restaurant Menu & Order Management System
 
@@ -6,33 +6,33 @@
 
 ## Overview
 
-A Restaurant Order Management System built entirely using Python's core data structures — lists, dictionaries, and nested combinations of both.
+A Restaurant Order Management System built entirely using Python's core data structures - lists, dictionaries, and nested combinations of both.
 
 ---
 
 ## Tasks
 
-### Task 1 — Explore the Menu 
+### Task 1 - Explore the Menu 
 - Print the full menu grouped by category (Starters, Mains, Desserts)
 - Show availability status for each item
 - Compute total items, total available items, most expensive item
 - Print all items priced under ₹150
 
-### Task 2 — Cart Operations 
+### Task 2 - Cart Operations 
 - Simulate a customer placing an order using a cart (list of dictionaries)
 - Add items to cart with availability and existence checks
 - Update quantity if item already exists in cart instead of adding duplicate
 - Remove items from cart
 - Print final Order Summary with Subtotal, GST (5%), and Total Payable
 
-### Task 3 — Inventory Tracker with Deep Copy
+### Task 3 - Inventory Tracker with Deep Copy
 - Deep copy inventory using copy.deepcopy() before making changes
 - Demonstrate that changing inventory does not affect the backup
 - Simulate order fulfilment by deducting cart quantities from inventory
 - Print Reorder Alert for items at or below their reorder level
 - Print both inventory and backup at the end to confirm deep copy worked
 
-### Task 4 — Daily Sales Log Analysis 
+### Task 4 - Daily Sales Log Analysis 
 - Print total revenue per day
 - Find and print the best selling day
 - Find the most ordered item across all orders
